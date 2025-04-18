@@ -10,4 +10,9 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxt/image',
   ],
+
+  ssr: true,
+  app: {
+    baseURL: '/projekt1/'
+  }
 })
